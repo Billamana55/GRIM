@@ -1,0 +1,18 @@
+{
+"CONTRACT_ADDRESS": "0x55EE5A4381cBc40b8Bf5CeDC6CEEB9B02D8C566D",
+"SCAN_LINK": "https://polygonscan.com/address/0x55ee5a4381cbc40b8bf5cedc6ceeb9b02d8c566d",
+"NETWORK": {
+  "NAME": "Polygon",
+  "SYMBOL": "Matic",
+  "ID": 137
+},
+"NFT_NAME": "GrimButterflyNFT",
+"SYMBOL": "GRIM",
+"MAX_SUPPLY": 8941,
+"WEI_COST": 1000000000000000000,
+"DISPLAY_COST": 1,
+"GAS_LIMIT": 285000,
+"MARKETPLACE": "Opeansea",
+"MARKETPLACE_LINK": "https://opensea.io/collection/grimbutterflynft",
+"SHOW_BACKGROUND": true
+}
