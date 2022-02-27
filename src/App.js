@@ -394,9 +394,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to 
-            {CONFIG.NETWORK.NAME} Mainnet with the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            Please make sure you are connected to => {CONFIG.NETWORK.NAME} Mainnet with the correct address.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -405,9 +403,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
+            Please Note : We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            gas limit.  Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
         </s.Container>
       </s.Container>
