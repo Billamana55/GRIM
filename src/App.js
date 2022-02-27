@@ -99,7 +99,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
+  const [feedback, setFeedback] = useState(`Click Mint Now to get your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -394,7 +394,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to
+            Please make sure you are connected to 
             {CONFIG.NETWORK.NAME} Mainnet with the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
