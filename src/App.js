@@ -275,14 +275,13 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} = 1 NFT = {CONFIG.DISPLAY_COST}{" "} 
-                  {CONFIG.NETWORK.SYMBOL}.
+                  1 {CONFIG.SYMBOL} = 1 NFT (WHITELISTED MINT)
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees.
+                  Prepare enough Matic ( at least 0.1 ) to ensure that the mint process runs smoothly.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
