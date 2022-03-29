@@ -275,7 +275,7 @@ const decrementMintAmount = () => {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} = 1 NFT = 5 MATIC (exclude network fee)
+                  1 {CONFIG.SYMBOL} = 1 NFT = 5 MATIC
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -293,7 +293,7 @@ const decrementMintAmount = () => {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                     Please connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
