@@ -275,13 +275,13 @@ const decrementMintAmount = () => {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} = 1 NFT (WHITELISTED MINT)
+                  1 {CONFIG.SYMBOL} = 1 NFT = 5 MATIC (exclude network fee)
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Prepare enough Matic ( at least 0.1 ) to ensure that the mint process runs smoothly.
+                 Owner of GRIM NFT will receive our Token Airdrop (soon).
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -403,7 +403,7 @@ const decrementMintAmount = () => {
             }}
           >
             Please Note : We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
+            successfully mint your NFT. You can change it but We recommend that you don't lower the
             gas limit.  Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
         </s.Container>
