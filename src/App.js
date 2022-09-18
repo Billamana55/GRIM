@@ -163,7 +163,7 @@ const decrementMintAmount = () => {
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
     if (newMintAmount > 50) {
-      newMintAmount = 50;
+      newMintAmount = 5;
     }
     setMintAmount(newMintAmount);
   };
@@ -275,7 +275,7 @@ const decrementMintAmount = () => {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} = 1 NFT = 5 MATIC
+                  1 {CONFIG.SYMBOL} = 1 NFT = FREE only GAS (Limited Time)
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
